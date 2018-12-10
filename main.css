@@ -17,7 +17,15 @@
 }
 
 #siterpadu .box .icon {
-  padding: 30px auto;
-  font-size: 30px;
+  padding: 20px 0 20px 0;
+  font-size: 60px;
+}
+
+#siterpadu .box .caption {
+  padding: 30px 0px 30px 5px;
+}
+
+#siterpadu .box .caption h4 {
+  margin-bottom: 0px;
 }
 /*# sourceMappingURL=main.css.map */
