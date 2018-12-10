@@ -1,6 +1,5 @@
 
-        
-     
+<?php include 'header.php'; ?>
     <!-- 3 GRID -->
     <section class="components-3-grid" id="components-3-grid">
 	    <div class="row justify-content-center">
@@ -29,5 +28,5 @@
 	      </div>
       </section>
       <!-- AKHIR 3 GRID -->                
+<?php include 'footer.php'; ?>
 
-     
