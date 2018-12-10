@@ -1,5 +1,4 @@
 #siterpadu { 
-   
         
         .fa-phone{
             
@@ -18,8 +17,14 @@
                 -moz-transform: translateY(-10px);
             }
             .icon {
-                padding: 30px auto;
-                font-size: 30px;
+                padding: 20px 0 20px 0;
+                font-size: 60px;
+            }
+            .caption {
+                padding: 30px 0px 30px 5px;
+                h4 {
+                    margin-bottom: 0px;
+                }
             }
         }
     
