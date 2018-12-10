@@ -29,17 +29,20 @@
             <?php foreach($si as $s): ?>
 
                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
-                  <div class="box fadeInRight">
-                     <div class="row in-box">
-                        <div class="icon col-3 text-center">
-                           <i class="fas fa-<?php echo $s['icon'];?>"></i>
-                        </div>
-                        <div class="caption col-9">
-                           <h4>Sistem Informasi</h5>
-                           <h2><?php echo $s['nama'];?></h4>
+                  <a href="#"> <!--membungkus seluruh box untuk menjadi link-->
+                     <div class="box fadeInRight">
+                        <div class="row in-box">
+                           <div class="icon col-3 text-center">
+                              <i class="fas fa-<?php echo $s['icon'];?>"></i>
+                           </div>
+                           <div class="caption col-9">
+                              <h4>Sistem Informasi</h5>
+                              <h2><?php echo $s['nama'];?></h4>
+                           </div>
                         </div>
                      </div>
-                  </div>
+                  </a>
+
                </div>
    
             <?php endforeach; ?>
