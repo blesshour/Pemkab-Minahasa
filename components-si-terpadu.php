@@ -1,17 +1,9 @@
-<?php
-
-$x = 4;
-
-
-
-
-include 'header.php'; 
-?>
+<?php include 'header.php'; ?>
    
    <section id="siterpadu">
       <div class="container-fluid padding">
          <div class="row">
-
+            <!--loop 4x tiap box-->
             <?php for($x = 0; $x < 4; $x++): ?>
 
                <div class="col-lg-3 col-md-6 col-sm-12 box fadeInRight">
