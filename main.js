@@ -1,6 +1,9 @@
-$('.owl-carousel').owlCarousel({
-    margin:10,
+$('.banners').owlCarousel({
+    margin:2,
     loop:true,
     autoWidth:true,
-    items:4
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    items:1
 })
