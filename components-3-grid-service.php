@@ -1,8 +1,8 @@
+<?php include 'header.php';?>
 
-<?php include 'header.php'; ?>
     <!-- 3 GRID -->
     <section class="components-3-grid" id="components-3-grid">
-	    <div class="row justify-content-center">
+	    <div class="row justify-content-center" id="service"> <!-- menambahkan id untuk div yang membungkus semua elemen komponen, untuk menjadi target data-parent-->
 	        <div class="col-10 info-panel">
 	          <div class="row">
 	            <div class="col-lg text-center">
@@ -27,28 +27,29 @@
 	        </div>
 	       
 	        <!-- COLLAPSE -->
-	        <div class="collapse text-center" id="collapse-layananpublik">
+		 <!-- menambahkan data-parent-->
+	        <div class="collapse text-center out" data-parent="#service" id="collapse-layananpublik">
 				<div>
-					<h4>Insert DAFTAR LAYANAN</h4>
+					<h4>Insert DAFTAR LAYANAN PUBLIK</h4>
 					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
 				</div>
 			</div>
-			<div class="collapse text-center" id="collapse-suaraanda">
+			<div class="collapse text-center out" data-parent="#service" id="collapse-suaraanda">
 				<div>
-					<h4>Insert DAFTAR LAYANAN</h4>
+					<h4>Insert DAFTAR SUARA ANDA</h4>
 					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
 				</div>
 			</div>
-			<div class="collapse text-center" id="collapse-nomorteleponpenting">
+			<div class="collapse text-center out" data-parent="#service" id="collapse-nomorteleponpenting">
 				<div>
-					<h4>Insert DAFTAR LAYANAN</h4>
+					<h4>Insert DAFTAR NOMOR TELEPON PENTING</h4>
 					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
 				</div>
 			</div>
 			<!-- AKHIR COLLAPSE -->
 
-	      </div>
+	    </div>
       </section>
-      <!-- AKHIR 3 GRID -->                
-<?php include 'footer.php'; ?>
+      <!-- AKHIR 3 GRID -->     \
 
+<?php include 'footer.php';?>
