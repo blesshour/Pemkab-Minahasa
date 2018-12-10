@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <section id=banners>
-  <div class="owl-carousel owl-theme">
+  <div class="banners owl-carousel owl-theme">
     <div class="item" style="width:250px"><h4>1</h4></div>
     <div class="item" style="width:100px"><h4>2</h4></div>
     <div class="item" style="width:500px"><h4>3</h4></div>
