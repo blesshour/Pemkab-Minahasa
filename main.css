@@ -1,0 +1,23 @@
+#siterpadu .box {
+  padding: 40px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+          box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#siterpadu .box:hover {
+  -webkit-box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+          box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+
+#siterpadu .box .icon {
+  padding: 30px auto;
+  font-size: 30px;
+}
+/*# sourceMappingURL=main.css.map */
