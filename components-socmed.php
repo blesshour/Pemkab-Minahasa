@@ -1,25 +1,17 @@
 <?php include 'header.php'; ?>
 <!-- SOCMED -->
+   <section id="components-socmed">
     <div class="row justify-content-center">
-        <div class="col-10 info-panel">
-          <div class="row">
-            <div class="col-lg">
-              <a href="#"><i class="fab fa-facebook fa-5x"></i></a>
-            </div>
-            <div class="col-lg">
-              <a href="#"><i class="fab fa-twitter-square fa-5x"></i></a>
-            </div>
-            <div class="col-lg">
-              <a href="#"><i class="fab fa-instagram fa-5x"></i></a>
-            </div>
-            <div class="col-lg">
-             <a href="#"><i class="fab fa-google-plus-g fa-5x"></i></a>
-            </div>
-            <div class="col-lg">
-              <a href="#"><i class="fab fa-youtube fa-5x"></i></a>
-            </div>
-          </div>
-        </div>
+      <div class="col-10">
+        <ul>
+           <li><a href="#"><i class="logo fab fa-facebook-square"></i></a></li>
+           <li><a href="#"><i class="logo fab fa-twitter-square"></i></a></li>
+           <li><a href="#"><i class="logo fab fa-instagram"></i></a></li>
+           <li><a href="#"><i class="logo fab fa-google-plus-g"></i></a></li>
+           <li><a href="#"><i class="logo fab fa-youtube"></i></a></li>
+       </ul>
       </div>
-    <!-- AKHIR SOCMED -->
-    <?php include 'footer.php'; ?>
+    </div>
+   </section> 
+  <!-- AKHIR SOCMED -->
+  <?php include 'footer.php'; ?>
