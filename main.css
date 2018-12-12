@@ -158,10 +158,8 @@
 
 /*RUNNING TEXT*/
 .carousel-text {
-	background-color: white;
+	background-color: transparent;
 }
-
-
 
 .container-fluid {
 	margin: 0;
@@ -171,7 +169,6 @@
 .carousel-inner-text h5 {
 	font-size: 16px;
 	color: black;
-	
 }
 
 #running-text .carousel-item {
