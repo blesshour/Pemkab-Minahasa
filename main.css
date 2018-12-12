@@ -29,3 +29,129 @@
   margin-bottom: 0px;
 }
 /*# sourceMappingURL=main.css.map */
+
+
+
+/* SOCMED */
+#components-socmed ul {
+	display: flex;
+	margin-top: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#components-socmed li {
+	list-style: none;
+}
+
+#components-socmed li .logo {
+	height: 30px;
+	margin-bottom: 20px;
+
+}
+
+#components-socmed li a {
+	width: 40px;
+	height: 40px;
+	color: #ACACAC;
+	background: #ACACAC;
+	text-align: center;
+	line-height: 80px;
+	font-size: 25px;
+	margin: 0 10px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid;
+}
+
+#components-socmed ul li a .logo {
+	position: relative;
+	color: #262626;
+	transition: .5s;
+}
+
+#components-socmed ul li a:hover .logo {
+	transform: rotateY(360deg);
+}
+
+	/*DESKTOP ONLY*/
+	@media (min-width: 992px) {
+		#components-socmed li a {
+			width: 80px;
+			height: 80px;
+			color: #ACACAC;
+			background: #ACACAC;
+			text-align: center;
+			line-height: 80px;
+			font-size: 35px;
+			margin: 0 10px;
+			display: block;
+			border-radius: 50%;
+			position: relative;
+			overflow: hidden;
+			border: 3px solid;
+		}
+
+		#components-socmed li .logo {
+			height: 40px;
+			margin-bottom: 0;
+
+		}
+		
+
+	}
+/* AKHIR SOCMED */
+
+
+/* 2 GRID */
+.kolom1 {
+	margin-right: -30px;
+}
+.carousel1 {
+	background-color: teal;
+}
+
+.carousel2 {
+	background-color: indigo;
+}
+
+.carousel3 {
+	background-color: darkgrey;
+}
+
+.carousel4 {
+	background-color: red;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.carousel-inner {
+	margin-top: 0;
+}
+
+.carousel-inner img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+.carousel-inner h5 {
+	font-size: 16px;
+	color: white;
+	font-weight: 200;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	margin-top: -50px;
+}
+
+.carousel-item {
+	height: 350px;
+
+}
+/* AKHIR 2 GRID */
