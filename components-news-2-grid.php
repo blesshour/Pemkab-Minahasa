@@ -1,5 +1,5 @@
  <?php include 'header.php';?>
- 
+<!--  NEWS 2 GRID -->
  <section id="news-2-grid">
    <div class="container-fluid">
     <div class="row">
@@ -84,5 +84,5 @@
     </div>
   </div>
   </section>
-
+<!-- AKHIR NEWS 2 GRID -->
   <?php include 'footer.php';?>
