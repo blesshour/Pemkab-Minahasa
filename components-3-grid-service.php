@@ -3,27 +3,30 @@
 <?php 
 $services = [
 		[
-			"color" => "Tomato",
+			"logo" => "logo1",
 			"icon" => "fas fa-handshake fa-5x",
 			"title" => "Layanan Publik",
 			"href_collapse" => "#collapse-layananpublik",
-			"aria_controls" => "collapse-layananpublik"
+			"aria_controls" => "collapse-layananpublik",
+			"kolom" => "kolom1"
 		],
 
 		[
-			"color" => "Dodgerblue",
+			"logo" => "logo2",
 			"icon" => "fas fa-comments fa-5x",
 			"title" => "Suara Anda",
 			"href_collapse" => "#collapse-suaraanda",
-			"aria_controls" => "collapse-suaraanda"
+			"aria_controls" => "collapse-suaraanda",
+			"kolom" => "kolom2"
 		],
 
 		[
-			"color" => "Tomato",
+			"logo" => "logo3",
 			"icon" => "fas fa-phone-square fa-5x",
 			"title" => "Nomor Telepon Penting",
 			"href_collapse" => "#collapse-nomorteleponpenting",
-			"aria_controls" => "collapse-nomorteleponpenting"
+			"aria_controls" => "collapse-nomorteleponpenting",
+			"kolom" => "kolom3"
 		]
 
 ];
@@ -54,17 +57,17 @@ $collapse_datas = [
 	        <div class="service-panel">
 	          <div class="row">
 	          	<?php foreach ($services as $service) : ?>
-	            <div class="col-lg text-center">
-	              <span style="color: <?php echo $service["color"]; ?>;">
+	            <div class="col text-center <?php echo $service["kolom"]; ?>">
+	              <a data-toggle="collapse" href="<?php echo $service["href_collapse"]; ?>" role="button" aria-expanded="false" aria-controls="<?php echo $service["aria-controls"]; ?>">
+	              <span class="<?php echo $service["logo"]; ?>">
 	              <i class="<?php echo $service["icon"]; ?>"></i>
 	              </span>
-	              <a data-toggle="collapse" href="<?php echo $service["href_collapse"]; ?>" role="button" aria-expanded="false" aria-controls="<?php echo $service["aria-controls"]; ?>">
-	    			<h4><?php echo $service["title"]; ?></h4></a>
+	              <h4><?php echo $service["title"]; ?></h4></a>
 	            </div>
 	         	<?php endforeach; ?>
 	          </div>
 	          <!-- COLLAPSE -->
-		 <!-- menambahkan data-parent-->
+			 <!-- menambahkan data-parent-->
 		 		<?php foreach ($collapse_datas as $collapse_data) : ?>
 	        <div class="collapse text-center out" data-parent="#service" id="<?php echo $collapse_data["collapse_id"]; ?>">
 	        	
@@ -74,15 +77,10 @@ $collapse_datas = [
 				</div>
 			</div>
 				<?php endforeach; ?>
-			
-			
 			<!-- AKHIR COLLAPSE -->
 	        </div>
-	       
-	        
-
 	    </div>
       </section>
-      <!-- AKHIR 3 GRID -->
+      <!-- AKHIR 3 GRID -->  
 
 <?php include 'footer.php';?>
