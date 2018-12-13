@@ -30,7 +30,78 @@
 }
 /*# sourceMappingURL=main.css.map */
 
+/* 3 GRID */
+#service-3-grid .service-panel .logo1 {
+	color: tomato;
+	font-size: 10px;
+}
 
+#service-3-grid .service-panel .logo2 {
+	color: dodgerblue;
+	font-size: 10px;
+}
+
+#service-3-grid .service-panel .logo3 {
+	color: tomato;
+	font-size: 10px;
+}
+
+#service-3-grid .service-panel h4 {
+	color: black;
+	font-size: 12px;
+	
+}
+
+#service-3-grid #service {
+	margin-top: 20px;
+	
+}
+
+#service-3-grid .kolom2 {
+	margin-left: 30px;
+			
+}
+
+
+
+/*DESKTOP ONLY*/
+
+		@media (min-width: 992px) {
+				
+				#service-3-grid .kolom1 {
+					margin-right: 120px;
+			
+				}
+
+				#service-3-grid .kolom2 {
+					
+				}
+
+				#service-3-grid .kolom3 {
+					margin-left: 120px;
+					
+				}
+
+				#service-3-grid .service-panel h4 {
+					color: black;
+					font-size: 18px;
+				}
+
+				#service-3-grid .service-panel .logo1 {
+					font-size: 15px;
+				}
+
+				#service-3-grid .service-panel .logo2 {
+					font-size: 15px;
+				}
+
+				#service-3-grid .service-panel .logo3 {
+					font-size: 15px;
+				}
+						
+
+			}
+/* AKHIR 3 GRID */
 
 /* SOCMED */
 #components-socmed ul {
