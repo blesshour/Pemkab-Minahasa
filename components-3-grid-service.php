@@ -83,6 +83,6 @@ $collapse_datas = [
 
 	    </div>
       </section>
-      <!-- AKHIR 3 GRID -->     \
+      <!-- AKHIR 3 GRID -->
 
 <?php include 'footer.php';?>
