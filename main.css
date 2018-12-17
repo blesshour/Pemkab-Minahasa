@@ -30,6 +30,183 @@
 }
 /*# sourceMappingURL=main.css.map */
 
+/* HUBUNGI KAMI */
+#hubungi-kami .panel-heading{
+    padding: .5em 0 .5em 1em;
+    background-color: #280000;
+    color: #fff;
+    border-bottom: 5px;
+    border-bottom-color: #fff;
+    border-radius: 15px;
+}
+
+
+#hubungi-kami .panel-heading a {
+    color: #fff;
+}
+/* #hubungi-kami a: hover{
+    text-decoration: underline;
+    background-color: #996b6b;
+} */
+
+#hubungi-kami .panel-body {
+    padding: 2em;
+}
+
+#form-suara-anda .box:hover {
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+  }
+
+  #form-suara-anda .box {
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+    background: #fff;
+    transition: 0.4s;
+  }
+
+
+
+/* SELAYANG PANDANG */
+
+/* VISI */
+.visi {
+	margin-top: 50px;
+}
+
+.visi .display-4 {
+	font-size: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.visi .jumbotron {
+	background: none;
+
+}
+
+/* MISI */
+
+.misi {
+	margin-top: -50px;
+}
+
+.services-list .service-item {
+	margin-top: 15px;
+}
+
+.services-list .service-item .isi-misi {
+    margin-top: 0;
+}
+.services-list .service-icon {
+    float: left;
+    margin-top: -.6rem;
+}
+
+.services-list .service-text {
+    margin-left: 7.8rem;
+}
+
+.services-list .service-item{
+    padding-right: 50px;
+}
+
+.services-list .service-item{
+    padding-left: 50px;
+}
+
+/* LAMBANG DAN ARTI */
+.arti-lambang span {
+	font-weight: 500;
+}
+
+ /* PETA DAN TOPOGRAFI */
+.info-peta .display-4 {
+	font-size: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.info-peta .jumbotron {
+	background: none;
+}
+
+
+/* SEJARAH */
+.quotes {
+	margin-top: 50px;
+}
+
+.quotes .display-4 {
+	font-size: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 270px;
+}
+
+.quotes .jumbotron {
+	height: 820px;
+	background: none;
+}
+
+/*tentang minahasa*/
+.tentang-minahasa .tombol {
+	margin-top: 20px;
+
+}
+
+.tentang-minahasa span {
+	font-size: 40px;
+	font-weight: 500;
+}
+ 
+ /*fact panel 1 */
+#fact-panel1 .info {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	
+	margin-top: 10px;
+	background-color: white;
+}
+
+#fact-panel1 .info img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#fact-panel1 .info h3 {
+	
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#fact-panel1 .info p {
+	font-size: 18px;
+	color: #ACACAC;
+	margin-top: -5px;
+	font-weight: 200;
+} 
+
+/* lebih lanjut 1 */
+
+#lebih-lanjut1 {
+	margin-top: 50px;
+}
+
+#lebih-lanjut2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/*AKHIR SELAYANG PANDANG */
+
+
+
 /* 3 GRID */
 #service-3-grid .service-panel .logo1 {
 	color: tomato;
@@ -102,6 +279,7 @@
 
 			}
 /* AKHIR 3 GRID */
+
 
 /* SOCMED */
 #components-socmed ul {
@@ -183,19 +361,19 @@
 	margin-right: -30px;
 }
 .carousel1 {
-	background-color: teal;
+	
 }
 
 .carousel2 {
-	background-color: indigo;
+	
 }
 
 .carousel3 {
-	background-color: darkgrey;
+	
 }
 
 .carousel4 {
-	background-color: red;
+	
 }
 
 .container-fluid {
@@ -210,14 +388,14 @@
 .carousel-inner img {
 	height: 100%;
 	width: 100%;
-	object-fit: contain;
+	
+	min-width: 100%;
+	height: auto;
 }
 
 .carousel-inner h5 {
 	font-size: 16px;
 	color: white;
-	font-weight: 200;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 	margin-top: -50px;
 }
 
@@ -226,6 +404,7 @@
 
 }
 /* AKHIR 2 GRID */
+
 
 /*RUNNING TEXT*/
 .carousel-text {
@@ -240,6 +419,7 @@
 .carousel-inner-text h5 {
 	font-size: 16px;
 	color: black;
+	
 }
 
 #running-text .carousel-item {
@@ -250,4 +430,4 @@
 	width: 80px;
 	height: 20px;
 }
-/* AKHIR RUNNING TEXT */
+/* AKHIR RUNNING TEXT 
