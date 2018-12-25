@@ -1,2 +1,2 @@
-# Pemkab-Minahasa
-Dokumentasi Pemkab
+pemkab minahasa readme
+
